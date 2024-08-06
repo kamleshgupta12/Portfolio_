@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title -->
+    <title>Kamlesh Gupta</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Scrolltop CSS -->
+    <link rel="stylesheet" href="assets/css/scrolltop.css">
+    <!-- slick slider css -->
+    <link rel="stylesheet" href="assets/css/slick-slider.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- Fancy Box CSS -->
+    <link rel="stylesheet" href="assets/css/fancybox.min.css">
+    <!-- Aos CSS -->
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="Cute Radha Krishna Cartoon Images HD (40+) - Wishes143_com.png">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/app.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+</head>
+
+<body data-theme="dark">
+    <!-- Preloader Start Here -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <!-- Theme Switcher Start -->
+    <label class="theme-switcher-label d-flex">
+        <input class="theme-switcher" type="checkbox">
+        <span class="switch-handle">
+            <span class="light-text">
+                <i class="fas fa-moon" id="toggleDark"></i>
+            </span>
+        </span>
+    </label>
+    <!-- Theme Switcher Start -->
+
+    <!-- Header Area Start Here -->
+    <header class="header-area">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light px-3">
+                <div class="container-fluid">
+                    <div class="logo">
+                        <a href="#">portfolio_</a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <svg fill="#000000" xmlns="c" viewBox="0 0 30 30" width="30px"
+                            height="30px">
+                            <path
+                                d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z" />
+                        </svg>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav" id="nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#home">home</a>
+                            </li>
+                            <li class="nav-item animated-hover">
+                                <a class="nav-link" aria-current="page" href="#about">about</a>
+                            </li>
+                            <li class="nav-item animated-hover">
+                                <a class="nav-link" href="#services">Projects</a>
+                            </li>
+                            <!-- <li class="nav-item animated-hover">
+                                <a class="nav-link" href="#portfolio">portfolio</a>
+                            </li> -->
+                            <!-- <li class="nav-item animated-hover">
+                                <a class="nav-link" href="#blog">blog</a>
+                            </li> -->
+                            <li class="nav-item animated-hover">
+                                <a class="nav-link" href="#contact">contact</a>
+                            </li>
+                            <li class="nav-item animated-hover">
+                                <a class="nav-link" href="mailto:kamleshgupta.bk@gmail.com">Hire Me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="popup-mobile-menu offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample">
+            <div class="offcanvas-header">
+                <img style="width: 45px;" src="Cute Radha Krishna Cartoon Images HD (40+) - Wishes143_com.png" alt="">
+                <!-- <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px">
+                    <path
+                        d="M 12 2 C 11.846875 2 11.693234 2.0349687 11.552734 2.1054688 L 3.5527344 6.1054688 C 3.2137344 6.2744688 3 6.621 3 7 L 3 15.65625 C 3 15.99025 3.1673125 16.303281 3.4453125 16.488281 C 4.1103125 16.931281 5 16.45525 5 15.65625 L 5 7.6171875 L 12 4.1171875 L 19 7.6171875 L 19 15.681641 C 19 16.480641 19.889688 16.956672 20.554688 16.513672 C 20.832687 16.328672 21 16.016641 21 15.681641 L 21 7 C 21 6.621 20.786266 6.2744688 20.447266 6.1054688 L 12.447266 2.1054688 C 12.306266 2.0349687 12.153125 2 12 2 z M 9.0605469 9.0800781 C 8.8938125 9.0697344 8.7209375 9.1008437 8.5546875 9.1835938 C 8.2156875 9.3515937 8 9.699125 8 10.078125 L 8 19 C 8 19.334 8.1673125 19.647031 8.4453125 19.832031 L 11.445312 21.832031 C 11.781313 22.056031 12.219687 22.056031 12.554688 21.832031 L 15.554688 19.832031 C 15.833687 19.647031 16 19.334 16 19 L 16 10.078125 C 16 9.699125 15.784312 9.3525938 15.445312 9.1835938 C 14.780313 8.8525937 14 9.335125 14 10.078125 L 14 18.464844 L 12 19.798828 L 10 18.464844 L 10 10.078125 C 10 9.520875 9.56075 9.1111094 9.0605469 9.0800781 z" />
+                </svg> -->
+                <button type="button" data-bs-dismiss="offcanvas"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav main-menu">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#about">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Projects</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">blog</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End Here -->
+
+    <!--Hero-->
+    <section class="hero-section" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 order-2 order-lg-1">
+                    <div class="introduction">
+                        <span class="subtitle">Hello, I'm</span>
+                        <h1 class="title">Kamlesh
+                            <span class="john">Gupta</span><br>
+                            <span class="a">a</span>
+                            <span class="element"></span>
+                        </h1>
+                        <p class="text-justify font-weight-light">Passionate and hardworking  Software Developer with a strong understanding of software development basics. Good at solving problems, fixing bugs, and writing easy-to-read code. Excited to learn.</p>
+
+                        <!-- <p>"Graduated From <a href="https://subharti.org/" target="_blank">Subharti University Meerut UttarPradesh</a> , Pursuing Master's From <a href="https://kmclu.ac.in/" target="_blank">K.M.C. Language University UttarPradesh.</a>    " <br></p> -->
+                        <!--Socail icon-->
+                        <div class="social-icon">
+                            <ul class="m-0">
+                                <li>
+                                    <a href="#facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href="whatsapp://send?text=Hi &phone=+918052121367" target="_blank"><i class="fa-brands fa-whatsapp"></i> </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/bittugupta.00/" target="_blank"><i class="fa-brands fa-instagram "></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/kamlesh-gupta-396297225/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                                </li>
+                                <li>
+                                    <a href="mailto:kamleshgupta.bk@gmail.com" ><button style="border: none; outline: none; padding: 4px; border-radius: 5px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; background-color: var(--primary-color); color: white;">Hire Me</button></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 order-1 order-lg-2">
+                    <div class="hero">
+                        <img src="Profile Photo.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--About start-->
+    <section class="about-us" id="about">
+        <div class="container">
+            <div class="row" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="about-me">
+                        <img src="Kamlesh.jpg" class="img-fluid mt-2" alt="">
+                        <div class="about-overlay">
+                            <img src="assets/images/about/Vector.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="about-content">
+                        <span class="subtitle">Frontend Developer</span>
+                        <div class="section-heading">
+                            <h3 class="heading">About <span>Me!</span> </h3>
+                        </div>
+                        <p>"Graduated From <a href="https://subharti.org/" target="_blank">Subharti University Meerut UttarPradesh</a> , Pursuing Master's From <a href="https://kmclu.ac.in/" target="_blank">K.M.C. Language University UttarPradesh.</a>" <br></p>
+
+                        <!-- <p class="text-justify font-weight-light">Passionate and hardworking  Software Developer with a strong understanding of software development basics. Good at solving problems, fixing bugs, and writing easy-to-read code. Excited to learn.</p> -->
+
+                        <div class="skill">
+                            <h6>C++</h6>
+                            <div class="progress bg-light rounded-0" role="progressbar" aria-label="Example with label"
+                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar  color-bg-primary" style="width: 80%">80%</div>
+                            </div>
+                        </div>
+
+                        <div class="skill mt-2">
+                            <h6>JavaScript</h6>
+                            <div class="progress bg-light rounded-0" role="progressbar" aria-label="Example with label"
+                                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar  color-bg-primary" style="width: 75%">75%</div>
+                            </div>
+                        </div>
+
+                        <div class="skill mt-2">
+                            <h6>HTML5</h6>
+                            <div class="progress bg-light rounded-0" role="progressbar" aria-label="Example with label"
+                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar  color-bg-primary" style="width: 95%">95%</div>
+                            </div>
+                        </div>
+                        <div class="skill mt-2">
+                            <h6>CSS3</h6>
+                            <div class="progress bg-light rounded-0" role="progressbar" aria-label="Example with label"
+                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar  color-bg-primary" style="width: 95%">95%</div>
+                            </div>
+                        </div>
+                        <div class="skill mt-2">
+                            <h6>TAILWIND CSS</h6>
+                            <div class="progress bg-light rounded-0" role="progressbar" aria-label="Example with label"
+                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar  color-bg-primary" style="width: 85%">85%</div>
+                            </div>
+                        </div>
+                        <div class="skill mt-2">
+                            <h6>ReactJs</h6>
+                            <div class="progress bg-light rounded-0" role="progressbar" aria-label="Example with label"
+                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar  color-bg-primary" style="width: 70%">70%</div>
+                            </div>
+                        </div>
+
+                        <div class="mt-5">
+                            <a href="Kg-Resume.pdf" download="KG Resume" class='butn butn__new'><span> Download CV </span></a>
+                        </div>
+                        <!-- <div class="mt-5">
+              <a href="#" class='butn butn__new'><span> Hire Me </span></a>
+            </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About end-->
+
+    <!-- start Resume-->
+    <section class="my-resume">
+        <div class="container">
+            <div class="text-center">
+                <span class="subtitle">QUALIFICATION & EXPERIENCES</span>
+                <div class="section-heading">
+                    <h3 class="heading">My <span>Resume</span> </h3>
+                </div>
+            </div>
+            <div class="row" data-aos="fade-right" data-aos-duration="1000">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div>
+                        <h4 class="maintitle text-center">QUALIFICATION</h4>
+                    </div>
+                    <div class="resume-card p-4 d-flex" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="resume-icon">
+                            <i class="fa-solid fa-user-graduate"></i>
+                        </div>
+                        <div class="resume">
+
+                            <h5> Pursuing Master Of Computer Application</h5>
+                            <p> from... </p>
+                            <h6>K.M.C. Language University Uttar Pradesh.</h6>
+                        </div>
+                    </div>
+
+                    <div class="resume-card p-4 d-flex mt-4" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="resume-icon">
+                            <i class="fa-solid fa-user-graduate"></i>
+                        </div>
+                        <div class="resume">
+
+                            <h5>Graduate in Bachelor Of Computer Application</h5>
+                            <p>From...</p>
+                            <h6> Subharti University Meerut UttarPradesh</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div>
+                        <h4 class="maintitle text-center">Experience</h4>
+                    </div>
+
+                    <div class="resume-card p-4 d-flex" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="resume-icon">
+                            <i class="fa-solid fa-desktop h3"></i>
+                        </div>
+                        <div class="resume">
+                            <p>February 2024-Present</p>
+                            <h5>Web Design And Development</h5>
+                            <h6>Intern @SquadMinds Private Limited Mohali Punjab.</h6>
+                            <!-- <p>"In a diploma, I learned frontend skills, Java programming, and foundational theoretical
+                                subjects, equipping me with comprehensive knowledge and practical abilities for diverse
+                                tech roles."</p> -->
+                        </div>
+                    </div>
+
+                    <!-- <div class="resume-card p-4 d-flex mt-4" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="resume-icon">
+                            <i class="fa-brands fa-uikit"></i>
+                        </div>
+                        <div class="resume">
+                            <p></p>
+                            <h5>Android development</h5>
+                            <h6>University Of A.k.t.u</h6>
+                            <p>"In a btech, I am learning frontend skills, Java programming, and foundational
+                                theoretical subjects,and Android Development equipping me with comprehensive knowledge
+                                and practical abilities for diverse tech roles."</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Resume-->
+
+    <!--Services start-->
+    <section class="section-services" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="section-heading">
+                        <span class="subtitle">Projects</span>
+                        <h3 class="heading"> created projects <span> to improve workflow</span> </h3>
+                    </div>
+                    <!-- <p class="description">"For clients, I can provide tailored solutions, ensure timely communication,
+                        prioritize their needs, offer expertise in my field, and deliver high-quality results to meet
+                        and exceed their expectations."</p> -->
+                    <div class="mt-5 mb-5">
+                        <a href="#" class='butn butn__new'><span> Explore More</span></a>
+                    </div>
+                </div>
+
+                <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+                    <div class="all-services">
+                        <div class="row g-4">
+                            <!-- Start Single Service -->
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                <div class="single-service p-5" data-aos="zoom-in-left" data-aos-duration="1000">
+                                    <i class="fa-brands fa-uikit h3"></i>
+                                    <h5 class="title mt-2">GitHub Detective</h5>
+                                    <p class="description">"GitHub Detective retrieves comprehensive details about
+                                        GitHub users, including their bio, profile picture, location, follower count,
+                                        repository count, and contributions."</p>
+                                    <a href="https://github-detective-kg.netlify.app/ " target="_blank" class="read-more-btn"><i
+                                            class="fa-solid fa-arrow-right-long"></i> View
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- / End Single Service -->
+
+                            <!-- Start Single Service -->
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                <div class="single-service p-5 mt-5 mt_0" data-aos="zoom-in-left"
+                                    data-aos-duration="1000">
+                                    <i class="fa-solid fa-desktop h3"></i>
+                                    <h5 class="title mt-2">College Management System</h5>
+                                    <p class="description">"It is Provide the searching facility based on various
+                                        Factor.Such as College ,course, Batch, Fees Structure and Session.
+                                        "</p>
+                                    <a href="#" class="read-more-btn" target="_blank"><i class="fa-solid fa-arrow-right-long"></i> View
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- / End Single Service -->
+
+                            <!-- Start Single Service -->
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                <div class="single-service p-5 mobile-app" data-aos="zoom-in-left"
+                                    data-aos-duration="1000">
+                                    <i class="fa-solid fa-mobile-screen-button h3"></i>
+                                    <h5 class="title mt-2">Share Modal</h5>
+                                    <p class="description">"ShareModal is a customizable JavaScript component for
+                                        effortless sharing of content on social media platforms."</p>
+                                    <a href="https://modal-kg.netlify.app/" target="_blank" class="read-more-btn"><i
+                                            class="fa-solid fa-arrow-right-long"></i> View
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- / End Single Service -->
+
+                            <!-- Start Single Service -->
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                <div class="single-service p-5 mt-5 mt_0" data-aos="zoom-in-left"
+                                    data-aos-duration="1000">
+                                    <i class="fa-solid fa-laptop h3"></i>
+                                    <h5 class="title mt-2">Weather App</h5>
+                                    <p class="description">"Provides users with
+                                        real-time weather information for any city in the world. Used Open Weather Map
+                                        API."</p>
+                                    <a href="https://weather-appkg.netlify.app/" target="_blank" class="read-more-btn"><i
+                                            class="fa-solid fa-arrow-right-long"></i> View
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- / End Single Service -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Services end-->
+
+    <!-- my protfolio start-->
+    <section class="portfolio-area section-padding col" id="portfolio">
+        <div class="container">
+            <div class="row portfolio-list animate__zoomIn animate__animated animate__delay-3s" data-aos="fade-right"
+                data-aos-duration="1000">
+            </div>
+        </div>
+    </section>
+    <!-- my protfolio end -->
+
+    <!-- start testimonial-->
+
+    <!-- end testimonial-->
+
+    <!-- start  contact-->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="text-center mb-5 mb_5">
+                <span class="subtitle">Contact Me</span>
+                <div class="section-heading">
+                    <h3 class="heading">Get In <span> Touch</span> </h3>
+                </div>
+                <div class="contact-text" data-aos="fade-right">
+                    <p>Please fill out the form on this section to contact with me.</p>
+                </div>
+            </div>
+            <div class="row" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="info">
+                        <div class="info-item d-flex my-4">
+                            <a href="https://maps.app.goo.gl/jb9BupBx9cjQqVwF7" target="_blank"> <p><i class="fa-solid fa-location-dot "></i></p> </a>
+                           
+                            <div class="info-text">
+                                <h6>Address</h6>
+                                <p class="m-0">Kushinagar,UttarPradesh,india</p>
+                            </div>
+                        </div>
+                        <div class="info-item d-flex my-4">
+                            <a href="tel:+918052121367">  <p><i class="fa-solid fa-phone"></i></p></a>
+                            <div class="info-text">
+                                <h6>Phone</h6>
+                                <p class="m-0">+91 8052121367</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item d-flex my-4">
+                            <a href="mailto:kamleshgupta.bk@gmail.com"><p><i class="fa-regular fa-envelope"></i></p></a>
+                            <div class="info-text">
+                                <h6>Email</h6>
+                                <p class="m-0">kamleshgupta.bk@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="contact-form">
+                        <form name="submit-to-google-sheet" method="POST" id="form">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <!-- <div class="alert alert-success contact__msg" style="display: none" role="alert">
+                                        Your message was sent successfully.
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="mb-3 row g-3">
+                                <div class="col-md-6">
+                                    <input  id="sub" type="text" name="Name" class="form-control py-2 rounded-0"
+                                        placeholder="Name" required="">
+                                </div>
+                                <div class="col-md-6">
+                                    <input id="sub" type="email" name="Email" class="form-control py-2 rounded-0"
+                                        placeholder="Email" required="">
+                                </div>
+                                <div class="mb-3">
+                                    <textarea id="text" name="Message" class="form-control rounded-0" placeholder="Message"
+                                        rows="8"></textarea>
+                                </div>
+                                <div class="text-start">
+                                    <button style="border: none; outline: none; border-radius: 5px; background-color: var(--primary-color); padding: 8px; width: 100px ; color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 20px;" id="sub" class="submit"><span> Send </span> </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- <div class="col-md-12">
+                    <div class="map-area">
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/place/%E0%A4%AE%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%9C%E0%A4%BC%E0%A4%BE%E0%A4%AA%E0%A5%81%E0%A4%B0,+%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%B0+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A6%E0%A5%87%E0%A4%B6/@25.1434546,82.5102789,13z/data=!3m1!4b1!4m6!3m5!1s0x398fc1ca0ad8cfb5:0xd0218588b2986e11!8m2!3d25.1336987!4d82.5644344!16zL20vMDJ6Z2Iy?entry=ttu"
+                                height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- end Get In Touch-->
+
+    <!-- start Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <p class="m-0">Copyright © 2023 All Rights Reserved.</p>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <p class="m-0 text-end description-1">Made with <i style="color: red; font-size: 20px;" class="fa-solid fa-heart-pulse"></i> <a href="#">Kamlesh Gupta</a> </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end Footer-->
+
+    <!-- Page Scroll to Top -->
+    <button class="material-scrolltop" type="button"><i class="fa-solid fa-angle-up"></i></button>
+
+    <!-- Jquery Library -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Waypoints js -->
+    <script src="assets/js/waypoints.min.js"></script>
+    <!-- Counter Up Js -->
+    <script src="assets/js/counterup.min.js"></script>
+    <!-- Slick Slider Js -->
+    <script src="assets/js/slick-slider.min.js"></script>
+    <!-- Typed js -->
+    <script src="assets/js/typed.min.js"></script>
+    <!-- one-page-nav js -->
+    <script src="assets/js/one-page-nav.js"></script>
+    <!-- Mixitup js -->
+    <script src="assets/js/mixitup.min.js"></script>
+    <!-- Fancy Box js -->
+    <script src="assets/js/fancybox.min.js"></script>
+    <!-- Aos js -->
+    <script src="assets/js/aos.js"></script>
+    <!-- Scrolltop js -->
+    <script src="assets/js/scrolltop.js"></script>
+    <!-- Custom js -->
+    <script src="assets/js/app.js"></script>
+    <!-- Contact js -->
+    <script src="assets/js/contact.js"></script>
+
+    <script
+    src="https://kit.fontawesome.com/e366b28196.js"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    const scriptURL =
+      "https://script.google.com/macros/s/AKfycbyIweBsTug3UrncQ_LYWCgVAr4CQaccyyYIqlhCKWRReXQHdJaOWG8BrHD9u43q2-c_Dg/exec";
+    const form = document.forms["submit-to-google-sheet"];
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      fetch(scriptURL, { method: "POST", body: new FormData(form) })
+        .then((response) => console.log("Success!", response))
+        .catch((error) => console.error("Error!", error.message));
+        
+    });
+  </script>
+
+</body>
+
+</html>
